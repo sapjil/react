@@ -1,0 +1,15 @@
+.tab-container {
+	.tab-menus {
+		display: flex;
+	}
+	.tab-contents {
+		padding: .5rem;
+	}
+	.tab-menu {
+		padding: .5rem;
+		&.active {
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+}

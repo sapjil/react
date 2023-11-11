@@ -1,0 +1,19 @@
+.toggle-wrapper {
+	position: relative;
+	.toggle-menu {
+		position: absolute;
+		padding: 1rem;
+		min-width: 15rem;
+		background: #fff;
+		border: 1px solid #ddd;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin: .5rem 0;
+		}
+	}
+}
+
