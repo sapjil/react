@@ -6,7 +6,7 @@ const Home = (props) => {
 	// const explain = []
 
 	return (
-		<DefaultLayout {...props}>
+		<BaseLayout {...props}>
 			리액트 공부하면서 만들어 본 기초적인 것들 기록 저장소
 		</BaseLayout>
 	)

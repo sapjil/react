@@ -5,7 +5,12 @@ import Footer from './Footer'
 import 'semantic-ui-css/semantic.min.css'
 import './DefaultLayout.scss'
 
-const DefaultLayout = ({children, pageTitle}) => {
+const DefaultLayout = (props) => {
+	const {
+		children,
+		pageTitle,
+	} = props;
+
 	return (
 		<>
 			<Header pageTitle={pageTitle} />

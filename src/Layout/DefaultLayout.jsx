@@ -11,8 +11,8 @@ const DefaultLayout = (props) => {
 	const {
 		children,
 		pageTitle,
-		reference,
-		explain,
+		reference = [],
+		explain = [],
 	} = props;
 
 	return (
