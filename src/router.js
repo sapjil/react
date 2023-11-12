@@ -12,6 +12,7 @@ import ReactCalendar from 'Pages/Calendar/Index';
 import SwiperNavCustom from 'Pages/Swiper/SwiperNavCustom';
 import Buttons from 'Pages/Button';
 import Select from 'Pages/Select';
+import State from 'Pages/State';
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
@@ -51,5 +52,9 @@ export const menuItems = [
   {
     path: 'Select',
     content: <Select pageTitle={'React Select'} />,
+  },
+  {
+    path: 'State',
+    content: <State pageTitle={'React State'} />,
   },
 ];
