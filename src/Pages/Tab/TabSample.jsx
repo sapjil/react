@@ -5,7 +5,8 @@ import Contents from 'Components/Contents';
 import './Tab.scss'
 
 const TabSample = (props) => {
-	const { pageTitle } = props;
+	// const reference = []
+	// const explain = []
 
 	const [now, setIndex] = useState(0);
 
@@ -16,7 +17,7 @@ const TabSample = (props) => {
 	]
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
+		<DefaultLayout {...props}>
 			<section className="tab-container">
 				<div className='tab-menus'>
 					{data.map(item => (

@@ -18,6 +18,10 @@ body {
 	font-size: 1.5rem;
 }
 
+.footer {
+	text-align: right;
+}
+
 .content-wrap {
 	padding: 1rem;
 }
@@ -70,5 +74,33 @@ button {
 }
 
 .input-wrap + .input-wrap {
+	margin-top: 1rem;
+}
+
+
+.bg {
+	background: #222;
+}
+
+.round {
+	border-radius: 1rem;
+}
+
+.crop {
+	height: 12.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p ~ p {
+	margin-top: 1rem;
+}
+
+.invert {
+	filter: invert(1);
+}
+
+.info-wrap {
 	margin-top: 1rem;
 }

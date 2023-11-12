@@ -5,7 +5,8 @@ import Modal from 'Components/Modal'
 import './Modal.scss'
 
 const ModalSample = (props) => {
-	const { pageTitle } = props;
+	// const reference = []
+	// const explain = []
 
 	const [modalOpen, setModalOpen] = useState(false);
 	const [modalSizeSet, setModalSizeSet] = useState('medium');
@@ -13,7 +14,7 @@ const ModalSample = (props) => {
 	const modalSize = ['small', 'medium', 'large'];
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
+		<DefaultLayout {...props}>
 			<div>
 				modalSize
 				{modalSize.map((item, index) => (
