@@ -9,6 +9,7 @@ import Toggle from 'Pages/Toggle';
 import Filter from 'Pages/Filter';
 import SwiperDefault from 'Pages/Swiper';
 import ReactCalendar from 'Pages/Calendar/Index';
+import SwiperNavCustom from 'Pages/Swiper/SwiperNavCustom';
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
@@ -32,6 +33,10 @@ export const menuItems = [
   {
     path: 'SwiperDefault',
     content: <SwiperDefault pageTitle={'Swiper Default'} />,
+  },
+  {
+    path: 'SwiperNavCustom',
+    content: <SwiperNavCustom pageTitle={'Swiper NavCustom'} />,
   },
   {
     path: 'ReactCalendar',
