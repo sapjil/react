@@ -33,12 +33,13 @@ const TileContent = ({ Children }) => {
 }
 
 const ReactCalendar = (props) => {
-	const { pageTitle } = props;
+	// const reference = []
+	// const explain = []
 
 	const [value, onChange] = useState(new Date())
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
+		<DefaultLayout {...props}>
 			<p>
 				<Link to='https://github.com/wojtekmaj/react-calendar/blob/main/packages/react-calendar/README.md' target='_blank'>react calendar</Link>
 			</p>

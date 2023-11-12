@@ -12,13 +12,14 @@ const Dummy2 = [
 ]
 
 const Filter = (props) => {
-	const { pageTitle } = props;
+	// const reference = []
+	// const explain = []
 
 	const [filterVal, setFilterVal] = useState("");
 	const [filterVal2, setFilterVal2] = useState("");
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
+		<DefaultLayout {...props}>
 			<div style={{ display: 'flex', columnGap:'2rem' }}>
 				<div className='part1'>
 					<div>
