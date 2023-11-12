@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import Refer from 'Components/Refer'
-import Explain from '../Components/Explain';
+import Explain from 'Components/Explain';
 
 import 'semantic-ui-css/semantic.min.css'
 import './DefaultLayout.scss'
