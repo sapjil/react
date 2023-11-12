@@ -4,7 +4,8 @@ import DefaultLayout from 'Layout/DefaultLayout'
 import './Toggle.scss'
 
 const Toggle = (props) => {
-	const { pageTitle } = props;
+	// const reference = []
+	// const explain = []
 
 	const [exam, setExam] = useState(true);
 	const [toggle, setToggle] = useState(false);
@@ -17,7 +18,7 @@ const Toggle = (props) => {
 	}
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
+		<DefaultLayout {...props}>
 			<div style={{ display: 'flex', columnGap:'2rem' }}>
 				<div>
 					<button onClick={handler}>handler</button>

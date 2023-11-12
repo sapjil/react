@@ -15,15 +15,16 @@ import Contents from 'Components/Contents';
 import './Swiper.scss'
 
 const SwiperDefault = (props) => {
-	const { pageTitle } = props;
+
+	const reference = [
+		{ link:'https://swiperjs.com/react', text:'swiperjs react'}
+	]
+	const explain = []
 
 	const swipeName = 'slider-default'
 
 	return (
-		<DefaultLayout pageTitle={pageTitle}>
-			<p>
-				<Link to="https://swiperjs.com/react" target="_blank">swiperjs</Link>
-			</p>
+		<DefaultLayout reference={reference} explain={explain} {...props}>
 			<div className='swiper-outside-wrap' style={{ width: '30rem' }}>
 				<Swiper
 					// install Swiper modules
