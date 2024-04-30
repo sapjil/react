@@ -32,7 +32,7 @@ import './Swiper.scss';
 // };
 
 const SwiperNavCustom2 = (props) => {
-	const { pageTitle } = props;
+  const { pageTitle } = props;
   const swipeName = 'slider-navigation-custom2';
 
   return (
@@ -53,39 +53,39 @@ const SwiperNavCustom2 = (props) => {
           // onSlideChange={() => console.log('slide change')}
           // onTransitionEnd={e => console.log(e.wrapperEl)}
           // onTransitionEnd={e => console.log(e.allowSlidePrev)}
-					// effect='fade'
-					// onTransitionEnd={e => console.log(e.fadeEffect)}
+          // effect='fade'
+          // onTransitionEnd={e => console.log(e.fadeEffect)}
         >
           <SwiperSlide>
             <h2>{swipeName}, useSwiper</h2>
-						<div className='inner-box'>
-							<Contents />
-							<Contents />
-						</div>
+            <div className='inner-box'>
+              <Contents />
+              <Contents />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-						<div className='inner-box'>
-							<Contents />
-							<Contents />
-						</div>
+            <div className='inner-box'>
+              <Contents />
+              <Contents />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-						<div className='inner-box'>
-							<Contents />
-							<Contents />
-						</div>
+            <div className='inner-box'>
+              <Contents />
+              <Contents />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-						<div className='inner-box'>
-							<Contents />
-							<Contents />
-						</div>
+            <div className='inner-box'>
+              <Contents />
+              <Contents />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
-						<div className='inner-box'>
-							<Contents />
-							<Contents />
-						</div>
+            <div className='inner-box'>
+              <Contents />
+              <Contents />
+            </div>
           </SwiperSlide>
           {/* <div className='navigation'>
             <SlideNextButton>slide next</SlideNextButton>

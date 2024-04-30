@@ -7,12 +7,16 @@ import ClassSample from 'Pages/Class';
 import ShowHideClass from './Pages/Class/ShowHideClass';
 import Toggle from 'Pages/Toggle';
 import Filter from 'Pages/Filter';
-import SwiperDefault from 'Pages/Swiper';
 import ReactCalendar from 'Pages/Calendar/Index';
+import SwiperDefault from 'Pages/Swiper';
 import SwiperNavCustom from 'Pages/Swiper/SwiperNavCustom';
+<<<<<<< Updated upstream
 import Buttons from 'Pages/Button';
 import Select from 'Pages/Select';
 import State from 'Pages/State';
+=======
+import SwiperCustom from './Pages/Swiper/SwiperCustom';
+>>>>>>> Stashed changes
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
@@ -40,6 +44,10 @@ export const menuItems = [
   {
     path: 'SwiperNavCustom',
     content: <SwiperNavCustom pageTitle={'Swiper NavCustom'} />,
+  },
+  {
+    path: 'SwiperCustom',
+    content: <SwiperCustom pageTitle={'SwiperCustom'} />,
   },
   {
     path: 'ReactCalendar',

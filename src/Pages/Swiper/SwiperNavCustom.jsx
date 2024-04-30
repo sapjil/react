@@ -13,7 +13,7 @@ import Contents from 'Components/Contents';
 import './Swiper.scss';
 
 const SwiperNavCustom = (props) => {
-	const { pageTitle } = props;
+  const { pageTitle } = props;
   const swiperRef = useRef();
   const swipeName = 'slider-navigation-custom';
 
@@ -36,8 +36,7 @@ const SwiperNavCustom = (props) => {
             // console.log(swiperRef.current)
             // console.log(swiper)
           }}
-          onSlideChange={() => console.log('slide change')}
-        >
+          onSlideChange={() => console.log('slide change')}>
           <SwiperSlide>
             <h2>{swipeName}, swiperRef</h2>
             <Contents />
