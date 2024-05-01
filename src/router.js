@@ -16,6 +16,7 @@ import Accordions from 'Pages/Accordions';
 import Counter from 'Pages/State/Counter';
 import Todos from 'Pages/State/Todos';
 import FetchSample from 'Pages/Fetch';
+import Images from 'Pages/Images';
 // import Buttons from 'Pages/Button';
 // import State from 'Pages/State';
 
@@ -73,6 +74,10 @@ export const menuItems = [
   {
     path: 'FetchSample',
     content: <FetchSample pageTitle={'FetchSample'} />,
+  },
+  {
+    path: 'Images',
+    content: <Images pageTitle={'Images Sample'} />,
   },
   // {
   //   path: 'Buttons',
