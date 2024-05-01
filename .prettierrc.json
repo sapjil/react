@@ -13,10 +13,5 @@
   "endOfLine": "auto",
   "htmlWhitespaceSensitivity": "css",
   "singleAttributePerLine": false,
-  "experimentalTernaries": false,
-  "quoteProps": "as-needed",
-  "proseWrap": "preserve",
-  "insertPragma": false,
-  "requirePragma": false,
   "embeddedLanguageFormatting": "auto"
 }

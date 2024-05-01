@@ -1,15 +1,17 @@
-import React from 'react'
-import DefaultLayout from 'Layout/DefaultLayout'
+import React from 'react';
+import DefaultLayout from 'Layout/DefaultLayout';
 
 const PageTemplate = (props) => {
-	// const reference = []
-	// const explain = []
+  // const reference = []
+  // const explain = []
 
-	return (
-		<DefaultLayout {...props}>
-			Lorem ipsum, dolor sit amet consectetur adipisicing elit
-		</DefaultLayout>
-	)
-}
+  return (
+    <>
+      <DefaultLayout {...props}>
+        Lorem ipsum, dolor sit amet consectetur
+      </DefaultLayout>
+    </>
+  );
+};
 
-export default PageTemplate
+export default PageTemplate;
