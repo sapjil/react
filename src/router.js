@@ -10,13 +10,13 @@ import Filter from 'Pages/Filter';
 import ReactCalendar from 'Pages/Calendar/Index';
 import SwiperDefault from 'Pages/Swiper';
 import SwiperNavCustom from 'Pages/Swiper/SwiperNavCustom';
-<<<<<<< Updated upstream
-import Buttons from 'Pages/Button';
 import Select from 'Pages/Select';
-import State from 'Pages/State';
-=======
 import SwiperCustom from './Pages/Swiper/SwiperCustom';
->>>>>>> Stashed changes
+import Accordions from 'Pages/Accordions';
+import Counter from 'Pages/State/Counter';
+import Todos from 'Pages/State/Todos';
+import Buttons from 'Pages/Button';
+import State from 'Pages/State';
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
@@ -54,15 +54,27 @@ export const menuItems = [
     content: <ReactCalendar pageTitle={'React Calendar'} />,
   },
   {
-    path: 'Buttons',
-    content: <Buttons pageTitle={'React Button'} />,
-  },
-  {
     path: 'Select',
     content: <Select pageTitle={'React Select'} />,
   },
   {
-    path: 'State',
-    content: <State pageTitle={'React State'} />,
+    path: 'Todos',
+    content: <Todos pageTitle={'React Todos'} />,
   },
+  {
+    path: 'Counter',
+    content: <Counter pageTitle={'Counter'} />,
+  },
+  {
+    path: 'Accordions',
+    content: <Accordions pageTitle={'Accordion(react-transiton-group)'} />,
+  },
+  // {
+  //   path: 'Buttons',
+  //   content: <Buttons pageTitle={'React Button'} />,
+  // },
+  // {
+  //   path: 'State',
+  //   content: <State pageTitle={'React State'} />,
+  // },
 ];

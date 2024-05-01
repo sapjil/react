@@ -8,10 +8,12 @@ import Contents from 'Components/Contents';
 import SliderComponent from './SliderComponent';
 
 import './Swiper.scss';
+import Button from '../../Components/Button';
 
 const SwiperCustom = (props) => {
   const { pageTitle } = props;
   const swipeName = 'slider-custom';
+  const swipeSecond = 'slider-button-wrapper';
 
   return (
     <>
@@ -47,6 +49,42 @@ const SwiperCustom = (props) => {
             <Contents />
           </SwiperSlide>
         </SliderComponent>
+
+        <div className='inline-block bg-slate-400'>
+          <SliderComponent
+            modules={[Scrollbar, A11y]}
+            className={swipeSecond}
+            spaceBettween={0}
+            slidesPerView={'auto'}
+            initialSlide={1}
+            style={{ width: '30rem' }}>
+            <SwiperSlide>
+              <Button onClick={() => {}} size={'medium'}>
+                dd1
+              </Button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Button onClick={() => {}} size={'medium'}>
+                dd2
+              </Button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Button onClick={() => {}} size={'medium'}>
+                dd3
+              </Button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Button onClick={() => {}} size={'medium'}>
+                dd4
+              </Button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Button onClick={() => {}} size={'medium'}>
+                dd5
+              </Button>
+            </SwiperSlide>
+          </SliderComponent>
+        </div>
       </DefaultLayout>
     </>
   );

@@ -82,3 +82,16 @@
     }
   }
 }
+
+.slider-button-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  .swiper-slide {
+    padding: 0;
+    text-align: center;
+    margin-right: 1rem !important;
+    button {
+      width: 100%;
+    }
+  }
+}
