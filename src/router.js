@@ -15,8 +15,8 @@ import SwiperCustom from './Pages/Swiper/SwiperCustom';
 import Accordions from 'Pages/Accordions';
 import Counter from 'Pages/State/Counter';
 import Todos from 'Pages/State/Todos';
-import Buttons from 'Pages/Button';
-import State from 'Pages/State';
+// import Buttons from 'Pages/Button';
+// import State from 'Pages/State';
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
