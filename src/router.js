@@ -15,8 +15,9 @@ import SwiperCustom from './Pages/Swiper/SwiperCustom';
 import Accordions from 'Pages/Accordions';
 import Counter from 'Pages/State/Counter';
 import Todos from 'Pages/State/Todos';
-import Buttons from 'Pages/Button';
-import State from 'Pages/State';
+import FetchSample from 'Pages/Fetch';
+// import Buttons from 'Pages/Button';
+// import State from 'Pages/State';
 
 export const menuItems = [
   { path: 'home', content: <Home pageTitle={'Home'} /> },
@@ -68,6 +69,10 @@ export const menuItems = [
   {
     path: 'Accordions',
     content: <Accordions pageTitle={'Accordion(react-transiton-group)'} />,
+  },
+  {
+    path: 'FetchSample',
+    content: <FetchSample pageTitle={'FetchSample'} />,
   },
   // {
   //   path: 'Buttons',
