@@ -3,20 +3,20 @@ import DefaultLayout from 'Layout/DefaultLayout';
 import InputWrap from './components/InputWrap';
 import InputWrapSecond from './components/InputWrapSecond';
 
-const mockDate = [
-  {
-    id: 0,
-    isDone: false,
-    content: 'React 공부',
-    date: new Date().getTime(),
-  },
-  {
-    id: 1,
-    isDone: false,
-    content: 'Vue 공부',
-    date: new Date().getTime(),
-  },
-];
+// const mockDate = [
+//   {
+//     id: 0,
+//     isDone: false,
+//     content: 'React 공부',
+//     date: new Date().getTime(),
+//   },
+//   {
+//     id: 1,
+//     isDone: false,
+//     content: 'Vue 공부',
+//     date: new Date().getTime(),
+//   },
+// ];
 
 const State = (props) => {
   //////////////////////////////////////////
@@ -46,8 +46,8 @@ const State = (props) => {
   // };
   //////////////////////////////////////////
 
-  const reference = [];
-  const explain = [];
+  //   const reference = [];
+  //   const explain = [];
 
   const [inputValue, setInputValue] = useState('');
   const [listValue, setListValue] = useState('');
