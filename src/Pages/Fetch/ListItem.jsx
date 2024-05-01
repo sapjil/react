@@ -6,11 +6,11 @@ const ListItem = ({ listitem }) => {
       <div className='flex flex-col'>
         <h3 className='md text-xl font-bold mb-1'>{listitem.title}</h3>
         <div className='grid grid-cols-[84px_minmax(168px,_1fr)]'>
-          <div className='rounded-xl w-24 h-24 overflow-hidden'>
+          <div className='w-24 h-24 border-gradient'>
             <img
               src={listitem.image}
               alt={listitem.title}
-              className='object-cover w-24 h-24'
+              className='object-cover w-[74px] h-[74px]'
             />
           </div>
           <small className='ml-2'>

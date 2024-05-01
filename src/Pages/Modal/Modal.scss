@@ -1,37 +1,63 @@
 .modal-box {
-	padding: .5rem;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 1;
-	background: rgba(0, 0, 0, 0.5);
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  padding: 0.5rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .modal-container {
-	&.small {
-		width: 300px;
-	}
-	&.medium {
-		width: 600px;
-	}
-	&.large {
-		width: 900px;
-	}
+  &.small {
+    width: 300px;
+  }
+  &.medium {
+    width: 600px;
+  }
+  &.large {
+    width: 900px;
+  }
 }
 .modal-container {
-	border: 2px solid #000;
-	background: #fff;
-	.modal-header {
-		padding: 0.5rem;
-	}
-	.modal-contents {
-		padding: 0.5rem;
-	}
-	.modal-footer {
-		padding: 0.5rem;
-	}
+  border: 2px solid #000;
+  background: #fff;
+  .modal-header {
+    padding: 0.5rem;
+  }
+  .modal-contents {
+    padding: 0.5rem;
+  }
+  .modal-footer {
+    padding: 0.5rem;
+  }
+}
+
+.filter-box {
+  backdrop-filter: blur(2rem);
+  max-width: 60vw;
+  transform: translate(-50%m, -50%) scale(1);
+}
+
+.filter-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.875rem;
+  padding: 2rem;
+  color: #fff;
+  .filter {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #fff;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(6rem);
+  }
 }
